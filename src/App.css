@@ -1,6 +1,65 @@
-* {
-  margin: 0;
-  padding: 0;
-  
-  font-family: Arial, Helvetica, sans-serif;
+.App-Main {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+
+  .App-Title {
+    font-size: 2em;
+    font-weight: 700;
+
+    margin-top: 20%;
+  }
+
+  .App-Timer-Box {
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: #1f1f1f8c;
+    border: 1px solid #7e7e7e8c;
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .Time-Box {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 5%;
+      background-color: #202020b9;
+
+      border: 1px solid #7e7e7e8c;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .Time-Digit {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #ffffff;
+      }
+
+      .Time-Label {
+        position: absolute;
+        bottom: -70px;
+        color: #cfcfcfe1;
+        font-size: 0.9em;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.Time-Colon {
+  font-size: 1.5em;
 }

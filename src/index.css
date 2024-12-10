@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-color: #ffffff;
+    --background-color: #030303;
+}
+
+
+#root{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--font-color);
+    background: var(--background-color);    
+}
