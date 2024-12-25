@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Timer from "./components/Timer";
 
-const targetDate = "2025-08-15T12:00:00+05:30";
+const targetDate = "2025-10-01T12:00:00+05:30";
 
 const App: React.FC = () => {
   return (
